@@ -1,14 +1,26 @@
 package com.sqli.train;
 
-public class Train {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
+public class Train {
+    private List<Wagon> wagons;
+    private WagonFactory wagonFactory;
 
     public Train(String trainComponents) {
-
+        wagons = new ArrayList<>();
+        wagonFactory= new WagonFactory();
+        for (int i = 0; i < trainComponents.length(); i++) {
+            wagons.add(wagonFactory.getWagon(String.valueOf(trainComponents.charAt(i))));
+        }
     }
-    public String print(){
 
+    public String print() {
 
+        return wagons.stream().map(p-> p.toString()).collect(Collectors.joining("::"));
     }
 
 }
