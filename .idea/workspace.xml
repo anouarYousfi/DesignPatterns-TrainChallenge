@@ -30,10 +30,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git-2.23.0-64-bit.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TrainTest.doubleHeadedTrain">
     <configuration name="TrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="train" />
       <extension name="coverage">
@@ -63,8 +64,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrainTest.doubleHeadedTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sqli.train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sqli.train" />
+      <option name="MAIN_CLASS_NAME" value="com.sqli.train.TrainTest" />
+      <option name="METHOD_NAME" value="doubleHeadedTrain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrainTest.doubleHeadedTrain" />
         <item itemvalue="JUnit.TrainTest" />
       </list>
     </recent_temporary>
@@ -82,7 +100,7 @@
       <workItem from="1568634941235" duration="1612000" />
       <workItem from="1568641769079" duration="389000" />
       <workItem from="1568642227929" duration="605000" />
-      <workItem from="1568669627891" duration="7811000" />
+      <workItem from="1568669627891" duration="11616000" />
     </task>
     <servers />
   </component>
@@ -101,5 +119,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/train_sqli_echallenge_2017_master$TrainTest.ic" NAME="TrainTest Coverage Results" MODIFIED="1568743656227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sqli.train.*</FILTER>
+    </SUITE>
   </component>
 </project>
