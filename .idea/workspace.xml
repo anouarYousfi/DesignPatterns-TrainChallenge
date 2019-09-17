@@ -48,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrainTest.doubleHeadedTrain">
+  <component name="RunManager" selected="JUnit.TrainTest.modifyTrain">
     <configuration name="TrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="train" />
       <extension name="coverage">
@@ -80,8 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrainTest.modifyTrain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sqli.train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sqli.train" />
+      <option name="MAIN_CLASS_NAME" value="com.sqli.train.TrainTest" />
+      <option name="METHOD_NAME" value="modifyTrain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrainTest.modifyTrain" />
         <item itemvalue="JUnit.TrainTest.doubleHeadedTrain" />
         <item itemvalue="JUnit.TrainTest" />
       </list>
@@ -100,7 +117,7 @@
       <workItem from="1568634941235" duration="1612000" />
       <workItem from="1568641769079" duration="389000" />
       <workItem from="1568642227929" duration="605000" />
-      <workItem from="1568669627891" duration="11903000" />
+      <workItem from="1568669627891" duration="13440000" />
     </task>
     <servers />
   </component>

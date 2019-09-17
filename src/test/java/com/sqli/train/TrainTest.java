@@ -41,7 +41,6 @@ public class TrainTest {
         Train train = new Train("HPRPH");
         assertEquals("<HHHH::|OOOO|::|hThT|::|OOOO|::HHHH>", train.print());
     }
-/*
     @Test
     public void modifyTrain() {
         Train train = new Train("HPRPH");
@@ -51,7 +50,7 @@ public class TrainTest {
         assertEquals("|OOOO|::|hThT|::|OOOO|", train.print());
     }
 
-    @Test
+  /*  @Test
     public void cargoTrain() {
         Train train = new Train("HCCC");
         assertEquals("<HHHH::|____|::|____|::|____|", train.print());

@@ -25,4 +25,11 @@ public class Train {
         return wagons.stream().map(p-> p.toString()).collect(Collectors.joining("::"));
     }
 
+    public void detachEnd() {
+        wagons.remove(wagons.size()-1);
+    }
+
+    public void detachHead() {
+        wagons.remove(0);
+    }
 }
